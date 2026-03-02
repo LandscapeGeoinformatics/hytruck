@@ -1,0 +1,681 @@
+{
+  "layers": [
+    {
+      "id": "suitability_view",
+      "attributions": "cite 1",
+      "description": {
+        "en": ""
+      },
+      "format": "fill",
+      "group": "ahp",
+      "layers": "weighted_suitability",
+      "projection": "wgs84",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Suitability"
+      },
+      "transparent": false,
+      "active": true,
+      "type": "mvt",
+      "url": "https://hytruck-test.landscape-geoinformatics.eu/tiles-api/v1",
+      "version": "1.1.1",
+      "zIndex": 0
+    },
+    {
+      "id": "osm",
+      "attributions": "osm community",
+      "description": {
+        "en": "Collaborative project",
+        "ee": "Koostööprojekt"
+      },
+      "format": "png",
+      "group": "base map",
+      "layers": "osm",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Open Street Map",
+        "ee": ""
+      },
+      "transparent": true,
+      "active": true,
+      "type": "wms",
+      "url": "https://{s}.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png",
+      "version": "1.1.1",
+      "zIndex": 0
+    },
+    {
+      "id": "esri_world_imagery",
+      "attributions": "arcgis",
+      "description": {
+        "en": "Collaborative project",
+        "ee": "Koostööprojekt"
+      },
+      "format": "png",
+      "group": "base map",
+      "layers": "esri_world_imagery",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "ESRI World Imagery",
+        "ee": ""
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://server.arcgisonline.com/arcgis/rest/services/world_imagery/mapserver/tile/%7Bz%7D/%7By%7D/%7Bx%7D.png",
+      "version": "1.1.1",
+      "zIndex": 0
+    },
+    {
+      "id": "h2live",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "overview",
+      "layers": "hytruck:h2live",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "H2.live (cached)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 9
+    },
+    {
+      "id": "ehb_2030",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:ehb_2030",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "EHB 2030"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "fuel_stations",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "overview",
+      "layers": "hytruck:fuel_stations",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Fuel stations (OSM)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "rest_areas",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "overview",
+      "layers": "hytruck:rest_areas",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Resting areas (OSM)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "substations",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "power",
+      "layers": "hytruck:substations",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Power substation"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "urban_nodes",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ten-t",
+      "layers": "hytruck:urban_nodes",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Urban nodes"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "h2live_ready",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "h2live",
+      "layers": "hytruck:h2live_ready",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "h2live service areas (active)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 10
+    },
+    {
+      "id": "ehb_2040",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:ehb_2040",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "EHB 2040"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "hrs_station_snapped_4326",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "modelling",
+      "layers": "hytruck:hrs_station_snapped_4326",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Hypothetical HRS stations for service area demo"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "partner_countries",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "overview",
+      "layers": "hytruck:partner_countries",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "HyTruck countries (except Denmark)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "powerplants",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "power",
+      "layers": "hytruck:powerplants",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Power plants"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "corridor_points",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ten-t",
+      "layers": "hytruck:corridor_points",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Ten-T Corridor (Points)"
+      },
+      "transparent": true,
+      "active": true,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "corridor_lines",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ten-t",
+      "layers": "hytruck:corridor_lines",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Ten-T Corridor (Lines)"
+      },
+      "transparent": true,
+      "active": true,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "h2live_not_ready",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "h2live",
+      "layers": "hytruck:h2live_not_ready",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "h2live service areas (inactive)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 20
+    },
+    {
+      "id": "wind_power",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "power",
+      "layers": "hytruck:wind_power",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Wind farms (GEM)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 24
+    },
+    {
+      "id": "solar",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "power",
+      "layers": "hytruck:solar",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Solar farms (GEM)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 25
+    },
+    {
+      "id": "storages",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:storages",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Storages"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 30
+    },
+    {
+      "id": "gas_import_terminals",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:gas_import_terminals",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Gas import terminals"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 30
+    },
+    {
+      "id": "geo_graph_subt_df",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "modelling",
+      "layers": "hytruck:geo_graph_subt_df",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Segmented roads suitability"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 30
+    },
+    {
+      "id": "powerlines",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "power",
+      "layers": "hytruck:powerlines",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Power lines"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 30
+    },
+    {
+      "id": "offshore_wind_2030",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:offshore_wind_2030",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Offshore wind 2030"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 40
+    },
+    {
+      "id": "import_pipelines",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:import_pipelines",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Import pipelines"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 40
+    },
+    {
+      "id": "hrs_roads_hex",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "modelling",
+      "layers": "hytruck:hrs_roads_hex",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Ten-T main roads/highways (hex net)"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 40
+    },
+    {
+      "id": "offshore_wind_2040",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "ehb",
+      "layers": "hytruck:offshore_wind_2040",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Offshore wind 2040"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 50
+    },
+    {
+      "id": "hrs_service_area_lines",
+      "attributions": "cite 2",
+      "description": {
+        "en": ""
+      },
+      "format": "image/png",
+      "group": "modelling",
+      "layers": "hytruck:hrs_service_area_lines",
+      "projection": "epsg:3857",
+      "style": {
+        "style_id": "",
+        "url": ""
+      },
+      "title": {
+        "en": "Hypothetical HRS network service area demo"
+      },
+      "transparent": true,
+      "active": false,
+      "type": "wms",
+      "url": "https://maps.landscape-geoinformatics.org/geoserver/hytruck/wms?",
+      "version": "1.1.1",
+      "zIndex": 50
+    }
+  ],
+  "status": "ok"
+}

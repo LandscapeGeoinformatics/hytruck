@@ -1,0 +1,70 @@
+site_name: HyTruck documentation
+
+use_directory_urls: true
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  language: en
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+
+  logo: logos/logo.png
+  favicon: logos/favicon_16_16.png
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  # - attr_list
+  # - md_in_html
+  # - pymdownx.blocks.caption
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - sane_lists
+
+plugins:
+  - search
+  # - awesome-pages
+  - awesome-pages:
+    # filename: .index
+    # collapse_single_pages: true
+    # strict: true
+      # order: asc
+      # sort_type: natural
+      # order_by: title
+  # - redirects:
+  #     redirect_maps:
+  #       # 'index.md': 'app/'
+  #       'index.md': 'app/basic_usage.md'

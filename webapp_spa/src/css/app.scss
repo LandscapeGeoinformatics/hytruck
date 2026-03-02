@@ -1,0 +1,23 @@
+// app global css in SCSS form
+@media (max-width: 800px) {
+  #pageContainer {
+    margin: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  #pageContainer {
+    left: 300px;
+    width: calc(100vw - 310px);
+  }
+}
+
+@media (min-width: 1400px) {
+  #pageContainer {
+    left: 0px;
+    margin-left: 300px;
+    padding-top: 50px;
+    width: 800px;
+    margin: auto;
+  }
+}

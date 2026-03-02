@@ -1,0 +1,12 @@
+name: mkdocs
+channels:
+  - conda-forge
+dependencies:
+  - mkdocs
+  - mkdocs-material
+  - pymdown-extensions
+  - mkdocs-redirects
+  - poetry
+  - pip
+  - pip:
+      - mkdocs-awesome-pages-plugin

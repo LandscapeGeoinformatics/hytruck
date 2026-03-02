@@ -1,0 +1,7 @@
+nav:
+    - index.md
+    - application_guide
+    - data_references
+    - open_api.md
+    - about.md
+

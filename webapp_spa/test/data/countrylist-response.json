@@ -1,0 +1,52 @@
+{
+  "action": "query",
+  "return_": {
+    "column": [
+      [
+        "code",
+        "UInt8"
+      ],
+      [
+        "country",
+        "String"
+      ]
+    ],
+    "data": [
+      [
+        1,
+        "Germany"
+      ],
+      [
+        2,
+        "Denmark"
+      ],
+      [
+        3,
+        "Estonia"
+      ],
+      [
+        4,
+        "Finland"
+      ],
+      [
+        5,
+        "Latvia"
+      ],
+      [
+        6,
+        "Lithuania"
+      ],
+      [
+        7,
+        "Poland"
+      ],
+      [
+        8,
+        "Sweden"
+      ]
+    ]
+  },
+  "status": "ok",
+  "uuid": null,
+  "settingname": "countrylist"
+}
