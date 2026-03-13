@@ -20,4 +20,8 @@ It uses Analytic Hierarchy Process (AHP) to evaluate locations based on economic
 
 [https://interreg-baltic.eu/project/hytruck](https://interreg-baltic.eu/project/hytruck)
 
-<!-- [open API](https://hytruck.landscape-geoinformatics.eu/openapi) --> 
+Project archive deposit: [doi:10.5281/zenodo.18835725](https://dx.doi.org/10.5281/zenodo.18835725)
+
+Please cite accordingly:
+
+    Uuemaa, E., Kmoch, A., Chan, W. T., Remmelg, A., Amelie, G., & Garcia Estevez, R. (2026). HyTruck Spatial Planning Tool Data Deposit [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18835725
